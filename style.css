@@ -1,0 +1,128 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: linear-gradient(#fff,#000,#999);
+}
+
+.wrapper{
+    width: 98%;
+    height: 97vh;
+    margin: 10px auto;
+    position: relative;
+}
+
+#main{
+    position: absolute;
+    width: 80%;
+    height: 80vh;
+	top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    margin: auto;
+}
+
+#side1{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	transform: translateX(54%) scale(1.5);
+	z-index: 99;
+	border: 2px solid #fff;
+    transition: all .5s;
+    margin: 80px auto;
+}
+
+#side2{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	transform: translateX(14%) scale(1.2);
+	z-index: 9;
+	border: 2px solid #fff;
+    transition: all .5s;
+    margin: 80px auto;
+}
+
+#side3{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	transform: translateX(94%) scale(1.2);
+	z-index: 9;
+	border: 2px solid #fff;
+    transition: all .5s;
+    margin: 80px auto;
+}
+
+#side4{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	transform: translateX(-10%) scale(1);
+	z-index: 1;
+	border: 2px solid #fff;
+    transition: all .5s;
+    margin: 80px auto;
+}
+
+#side5{
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	transform: translateX(118%) scale(1);
+	z-index: 1;
+	border: 2px solid #fff;
+    transition: all .5s;
+    margin: 80px auto;
+}
+
+#main img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#pre{
+	height: 40px;
+	width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+	font-family: arial;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	top: 40%;
+    left: 5px;
+    z-index: 999;
+    background: #999;
+}
+
+#next{
+	height: 40px;
+	width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+	font-family: arial;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	top: 40%;
+    right: 5px;
+    z-index: 999;
+    background: #999;
+}
+
+#pre:hover{
+	cursor: pointer;
+    background: #f00;
+}
+
+#next:hover{
+	cursor: pointer;
+	background: #f00;
+}
